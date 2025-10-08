@@ -1,12 +1,20 @@
-# <p align="center">HTML5 3D Model Viewer
-<p align="center">
-Allows to create a web viewer for your 3D scene from glTF files.
-</p>
+# HTML5 3D Model Viewer
 
-# How to use
-- Download the latest build.
-- Extract the .zip file in a folder.
-- Launch PROGRAMNAME.exe.
+<img src="https://github.com/turboseb/html5-3dmodel-viewer/blob/master/icon.png" width="128"><br/>
+
+Blank file used for the <br/> [HTML5 - 3D Model Viewer Maker](https://github.com/turboseb/html5-3dmodel-viewer)
+
+
+
+# How was the release made
+  The project is exported using godot 4.5's web export template with a [custom HTML shell](https://github.com/turboseb/html5-3dmodel-viewer-blank-project/blob/master/Assets/Export/custom-full-size.html), which preloads an integrated package at runtime
+```
+  198    ...
+  199    setStatusMode('progress');
+  200 +  engine.preloadFile('custom_scene.pck'); <=
+  201    engine.startGame({
+  202    ...
+```
 
 # Built in
 <p align="center">
