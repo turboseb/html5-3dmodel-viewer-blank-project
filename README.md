@@ -1,6 +1,6 @@
 # HTML5 3D Model Viewer
 
-<img src="https://github.com/turboseb/html5-3dmodel-viewer/blob/master/icon.png" width="128"><br/>
+<img src="https://github.com/turboseb/html5-3dmodel-viewer/blob/master/Assets/Illustrations/icon.png" width="128"><br/>
 
 Blank file used for the <br/> [HTML5 - 3D Model Viewer Maker](https://github.com/turboseb/html5-3dmodel-viewer)
 
